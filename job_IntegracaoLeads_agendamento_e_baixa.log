@@ -1,0 +1,2104 @@
+
+[2021-08-07 05:00:03.862356] Doações com Oportunidade Agendadas:
+['7LU8F4', 'ON0Z3C', '0064P00000stODcQAM', '2021-08-06T11:18:21']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-08 05:00:05.709942] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-08 05:00:05.709969] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-09 05:00:05.761212] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-09 05:00:05.761241] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-10 05:00:04.223487] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-10 05:00:04.223514] Doações com Oportunidade Baixadas:
+['05B1EP', 'USJO8E', '0064P00000thAy7QAE', '2021-08-09T11:42:22.2446387']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-11 05:00:06.438034] Doações com Oportunidade Agendadas:
+['4MTS09', 'S7YXZR', '0064P00000tiEfnQAE', '2021-08-10T12:06:25']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-12 05:00:08.261487] Doações com Oportunidade Agendadas:
+['1S4IS8', 'WMOHXK', '0064P00000thBHgQAM', '2021-08-11T15:02:45']
+['21H9HU', '3VOHSG', '0064P00000thBHkQAM', '2021-08-11T11:16:14']
+['4O06HM', '1F80W5', '0064P00000thqHUQAY', '2021-08-11T12:02:47']
+['9O1R3D', 'QFBKXQ', '0064P00000tiEjGQAU', '2021-08-11T13:25:03']
+['3MAR53', '9NDD7W', '0064P00000tiKzpQAE', '2021-08-11T10:59:10']
+['1K3PW5', 'I7852I', '0064P00000tiMePQAU', '2021-08-11T09:33:29']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-13 05:00:06.139030] Doações com Oportunidade Agendadas:
+['7SM6A1', 'IIZDDF', '0064P00000thBHpQAM', '2021-08-12T17:15:17']
+['73T4XK', '2N4YSB', '0064P00000tiOf0QAE', '2021-08-12T12:08:10']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-14 05:00:04.168293] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-14 05:00:04.168319] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-15 05:00:04.658214] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-15 05:00:04.658241] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-16 05:00:06.183469] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-16 05:00:06.183497] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-17 05:00:08.042268] Doações com Oportunidade Agendadas:
+['0H8V7P', 'GKVRO9', '0064P00000tgUCNQA2', '2021-08-16T11:12:01']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-18 05:00:08.322128] Doações com Oportunidade Agendadas:
+['4TTJ17', 'B01OOM', '0064P00000tgUK4QAM', '2021-08-17T09:50:36']
+['7HZ07Y', 'G6WATB', '0064P00000tiOj7QAE', '2021-08-17T12:02:56']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-19 05:00:06.399313] Doações com Oportunidade Agendadas:
+['9ABI00', 'UV0NNT', '0064P00000stnIqQAI', '2021-08-18T16:36:10']
+['66NVU1', 'V7XD92', '0064P00000thBHhQAM', '2021-08-18T11:20:09']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-20 05:00:04.459317] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-20 05:00:04.459345] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-21 05:00:07.921434] Doações com Oportunidade Agendadas:
+['17PA2U', 'MFH3WA', '0064P00000strX2QAI', '2021-08-20T09:38:44']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-22 05:00:04.025227] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-22 05:00:04.025256] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-23 05:00:04.425045] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-23 05:00:04.425072] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-24 05:00:10.468493] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-24 05:00:10.468522] Doações com Oportunidade Baixadas:
+['0H8V7P', 'GKVRO9', '0064P00000tgUCNQA2', '2021-08-23T18:40:16.6990382']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-25 05:00:06.520994] Doações com Oportunidade Agendadas:
+['3G2DL3', 'A2JJMQ', '0064P00000thqHEQAY', '2021-08-24T10:19:20']
+['60IWC1', 'C3ZCFV', '0064P00000tmUglQAE', '2021-08-24T11:47:55']
+['3OI9K0', 'UZ1YFR', '0064P00000tnIe0QAE', '2021-08-24T13:32:45']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-26 05:01:10.027824] Doações com Oportunidade Agendadas:
+['5TM63Y', 'DUPOJT', '0064P00000tgUCiQAM', '2021-08-25T09:58:28']
+['0WCS22', 'US5UL8', '0064P00000tmKmpQAE', '2021-08-25T17:04:04']
+['42AK3Y', 'PNLORU', '0064P00000tnLLqQAM', '2021-08-25T11:18:20']
+['23VRN3', 'EEMIS5', '0064P00000tnOP2QAM', '2021-08-25T09:51:46']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-27 05:01:10.348371] Doações com Oportunidade Agendadas:
+['13UF8H', 'P67PQL', '0064P00000tiOfpQAE', '2021-08-26T16:28:39']
+['66EIR4', 'EI6T9T', '0064P00000tmKuyQAE', '2021-08-26T11:46:52']
+['82VRJ7', 'TZ5ESZ', '0064P00000tnZx1QAE', '2021-08-26T15:56:32']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-28 05:01:04.481878] Doações com Oportunidade Agendadas:
+['4C4F6C', 'O1LSY0', '0064P00000tn5OLQAY', '2021-08-27T13:54:53']
+['0C50HF', 'GUQXJY', '0064P00000tncC8QAI', '2021-08-27T09:13:59']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-08-29 05:01:04.077117] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-29 05:01:04.077152] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-30 05:01:04.431669] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-08-30 05:01:04.431695] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-08-31 05:01:07.245278] Doações com Oportunidade Agendadas:
+['3RVG57', '1P53AX', '0064P00000tnnByQAI', '2021-08-30T15:11:10']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-01 05:01:10.472040] Doações com Oportunidade Agendadas:
+['8OPH29', 'QYNME6', '0064P00000tgXk7QAE', '2021-08-31T09:54:14']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-02 05:01:09.248376] Doações com Oportunidade Agendadas:
+['1N93CP', '4B2K22', '0064P00000thqHXQAY', '2021-09-01T16:48:55']
+['3RNK50', 'E7ACCR', '0064P00000thqHXQAY', '2021-09-01T17:12:21']
+['91OA8H', 'J7O6V5', '0064P00000tnLMZQA2', '2021-09-01T10:43:34']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-03 05:01:06.971416] Doações com Oportunidade Agendadas:
+['8CA9A4', 'OZIQ8F', '0064P00000tncChQAI', '2021-09-02T11:54:41']
+['46J6GY', 'LFZCJZ', '0064P00000tnrZ2QAI', '2021-09-02T14:47:59']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-04 05:01:06.142028] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-04 05:01:06.142056] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-05 05:01:04.054479] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-05 05:01:04.054504] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-06 05:01:04.452314] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-06 05:01:04.452340] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-07 05:01:06.363983] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-07 05:01:06.364010] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-08 05:01:06.580910] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-08 05:01:06.580938] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-09 05:01:05.853164] Doações com Oportunidade Agendadas:
+['9P6M0N', 'VTQ5RM', '0064P00000tnnCcQAI', '2021-09-08T17:15:56']
+['3L2JO8', 'IE585N', '0064P00000toMGZQA2', '2021-09-08T16:16:51']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-10 05:01:06.099787] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-10 05:01:06.099816] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-11 05:01:03.726203] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-11 05:01:03.726234] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-12 05:01:03.888421] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-12 05:01:03.888450] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-13 05:01:06.189651] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-13 05:01:06.189678] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-14 05:01:08.139587] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-14 05:01:08.139615] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-15 05:01:06.649704] Doações com Oportunidade Agendadas:
+['4N50XJ', 'SSSNUJ', '0064P00000tmUgGQAU', '2021-09-14T08:40:23']
+['20VR1K', 'F8JG3R', '0064P00000tnrY2QAI', '2021-09-14T11:10:41']
+['77MW8G', 'L4XAR0', '0064P00000uIAZWQA4', '2021-09-14T11:02:10']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-16 05:01:06.163274] Doações com Oportunidade Agendadas:
+['73DLK1', 'I3IUMB', '0064P00000tnrYlQAI', '2021-09-15T16:39:10']
+['7LF15J', '3TC27B', '0064P00000toMGcQAM', '2021-09-15T15:16:30']
+['61OPL8', '6XVJ7D', '0064P00000uIE2VQAW', '2021-09-15T16:44:45']
+['7WB39X', 'SW8TJ5', '0064P00000uIE4CQAW', '2021-09-15T15:08:45']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-17 05:01:08.177766] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-17 05:01:08.177793] Doações com Oportunidade Baixadas:
+['9P6M0N', 'VTQ5RM', '0064P00000tnnCcQAI', '2021-09-16T12:14:59.3897675']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-18 05:01:03.772744] Doações com Oportunidade Agendadas:
+['3M8WJ7', 'UMOC5Q', '0064P00000tnrZTQAY', '2021-09-17T09:24:31']
+['7O2EN3', '0S0XI7', '0064P00000toMFmQAM', '2021-09-17T17:13:53']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-19 05:01:03.984869] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-19 05:01:03.984897] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-20 05:01:09.064850] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-20 05:01:09.064880] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-21 05:01:08.159545] Doações com Oportunidade Agendadas:
+['83BAM9', 'BLQUKA', '0064P00000tn5OcQAI', '2021-09-20T14:35:05']
+['2WN78O', 'Y19OOV', '0064P00000tnrZKQAY', '2021-09-20T15:00:06']
+['26W0UD', 'XE72CO', '0064P00000uI3m7QAC', '2021-09-20T16:34:51']
+['29CWM8', 'YE4Y9C', '0064P00000uIHpWQAW', '2021-09-20T12:06:14']
+['941ECI', '7SDAK1', '0064P00000uILB3QAO', '2021-09-20T14:25:33']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-22 05:01:06.288543] Doações com Oportunidade Agendadas:
+['21KFY6', 'BDSRSN', '0064X00001z6jkQQAQ', '2021-09-21T10:45:49']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-23 05:01:04.008872] Doações com Oportunidade Agendadas:
+['96LXE1', 'KUX6KL', '0064P00000tgXk4QAE', '2021-09-22T14:31:10']
+['3RV5N7', 'HFBQVT', '0064P00000uIHmfQAG', '2021-09-22T15:40:09']
+['3MV3N7', 'RUIWSR', '0064P00000uIHpHQAW', '2021-09-22T17:03:50']
+['8F48LA', 'WT2OZQ', '0064P00000uITjaQAG', '2021-09-22T17:15:08']
+['44KXR1', '5YNPK7', '0064X00001z6u5yQAA', '2021-09-22T13:42:03']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-24 05:01:06.321370] Doações com Oportunidade Agendadas:
+['4E35VV', 'RNJKAY', '0064X00001z6oZeQAI', '2021-09-23T10:40:17']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-25 05:01:05.793568] Doações com Oportunidade Agendadas:
+['01IK1O', '9MJ6X4', '0064X00001z6s4pQAA', '2021-09-24T10:21:26']
+['89YIR1', 'WR1QI4', '0064X00001z72onQAA', '2021-09-24T14:45:51']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-26 05:01:04.276479] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-26 05:01:04.276505] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-27 05:01:04.417966] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-09-27 05:01:04.417992] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-09-28 05:01:05.762940] Doações com Oportunidade Agendadas:
+['0FK06Q', '9FI0WN', '0064P00000tmAzlQAE', '2021-09-27T17:32:37']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-29 05:01:04.887354] Doações com Oportunidade Agendadas:
+['9N1KH7', 'XKTV7Y', '0064P00000uIDzwQAG', '2021-09-28T16:00:57']
+['5Z2RL0', 'KL1VI6', '0064X00001z7HrfQAE', '2021-09-28T16:27:01']
+['6YB48Z', 'NMFF9K', '0064X00001z7IRJQA2', '2021-09-28T15:46:14']
+['0E2RU1', 'TB5VDR', '0064X00001z7LmZQAU', '2021-09-28T16:05:44']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-09-30 05:01:06.046556] Doações com Oportunidade Agendadas:
+['58O9ZN', 'OY2AXX', '0064P00000uIHoyQAG', '2021-09-29T09:53:55']
+['0E1KG9', 'VOUKI3', '0064P00000uIHpbQAG', '2021-09-29T10:35:35']
+['80CCW9', 'LDN268', '0064P00000uILSTQA4', '2021-09-29T10:00:23']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-01 05:01:07.401562] Doações com Oportunidade Agendadas:
+['17PA2U', 'MFH3WA', '0064P00000strX2QAI', '2021-09-30T17:17:58']
+['1TOO52', 'C903X7', '0064P00000tgn8hQAA', '2021-09-30T17:17:58']
+['4TTJ17', 'B01OOM', '0064P00000tgUK4QAM', '2021-09-30T17:18:06']
+['8OPH29', 'QYNME6', '0064P00000tgXk7QAE', '2021-09-30T17:18:09']
+['73T4XK', '2N4YSB', '0064P00000tiOf0QAE', '2021-09-30T17:18:09']
+['7HZ07Y', 'G6WATB', '0064P00000tiOj7QAE', '2021-09-30T17:18:09']
+['0FK06Q', '9FI0WN', '0064P00000tmAzlQAE', '2021-09-30T17:17:58']
+['0WCS22', 'US5UL8', '0064P00000tmKmpQAE', '2021-09-30T17:17:58']
+['66EIR4', 'EI6T9T', '0064P00000tmKuyQAE', '2021-09-30T17:18:06']
+['83BAM9', 'BLQUKA', '0064P00000tn5OcQAI', '2021-09-30T17:18:09']
+['4C4F6C', 'O1LSY0', '0064P00000tn5OLQAY', '2021-09-30T17:18:06']
+['8CA9A4', 'OZIQ8F', '0064P00000tncChQAI', '2021-09-30T17:18:09']
+['42AK3Y', 'PNLORU', '0064P00000tnLLqQAM', '2021-09-30T17:18:02']
+['23VRN3', 'EEMIS5', '0064P00000tnOP2QAM', '2021-09-30T17:18:02']
+['73DLK1', 'I3IUMB', '0064P00000tnrYlQAI', '2021-09-30T17:18:09']
+['46J6GY', 'LFZCJZ', '0064P00000tnrZ2QAI', '2021-09-30T17:18:02']
+['2WN78O', 'Y19OOV', '0064P00000tnrZKQAY', '2021-09-30T17:18:02']
+['3M8WJ7', 'UMOC5Q', '0064P00000tnrZTQAY', '2021-09-30T17:18:02']
+['7O2EN3', '0S0XI7', '0064P00000toMFmQAM', '2021-09-30T17:18:09']
+['7LF15J', '3TC27B', '0064P00000toMGcQAM', '2021-09-30T17:18:09']
+['3L2JO8', 'IE585N', '0064P00000toMGZQA2', '2021-09-30T17:18:02']
+['26W0UD', 'XE72CO', '0064P00000uI3m7QAC', '2021-09-30T17:18:02']
+['9N1KH7', 'XKTV7Y', '0064P00000uIDzwQAG', '2021-09-30T17:18:12']
+['3RV5N7', 'HFBQVT', '0064P00000uIHmfQAG', '2021-09-30T17:18:02']
+['16ULH8', 'P3HWEN', '0064P00000uIHnLQAW', '2021-09-30T17:38:39']
+['58O9ZN', 'OY2AXX', '0064P00000uIHoyQAG', '2021-09-30T17:18:06']
+['0E1KG9', 'VOUKI3', '0064P00000uIHpbQAG', '2021-09-30T17:17:58']
+['3MV3N7', 'RUIWSR', '0064P00000uIHpHQAW', '2021-09-30T17:18:02']
+['941ECI', '7SDAK1', '0064P00000uILB3QAO', '2021-09-30T17:18:12']
+['80CCW9', 'LDN268', '0064P00000uILSTQA4', '2021-09-30T17:18:09']
+['21KFY6', 'BDSRSN', '0064X00001z6jkQQAQ', '2021-09-30T17:17:58']
+['4E35VV', 'RNJKAY', '0064X00001z6oZeQAI', '2021-09-30T17:18:06']
+['01IK1O', '9MJ6X4', '0064X00001z6s4pQAA', '2021-09-30T17:17:58']
+['89YIR1', 'WR1QI4', '0064X00001z72onQAA', '2021-09-30T17:18:09']
+['5Z2RL0', 'KL1VI6', '0064X00001z7HrfQAE', '2021-09-30T17:18:06']
+['6YB48Z', 'NMFF9K', '0064X00001z7IRJQA2', '2021-09-30T17:18:09']
+['4YI61J', 'VBRPDA', '0064X00001z7VQUQA2', '2021-09-30T17:35:28']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-02 05:01:04.029089] Doações com Oportunidade Agendadas:
+['5NG1Q8', '61ZFUW', '0064P00000toMGsQAM', '2021-10-01T14:56:34']
+['9B0H3T', 'C3WAB2', '0064X00001z79gFQAQ', '2021-10-01T17:29:33']
+['28IN5C', 'FUX9NC', '0064X00001z7cJUQAY', '2021-10-01T17:16:55']
+['8SI42Z', '0CV7QA', '0064X00001z7XIrQAM', '2021-10-01T15:02:47']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-03 05:01:05.578018] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-03 05:01:05.578043] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-04 05:01:07.639964] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-04 05:01:07.639993] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-05 05:01:03.903695] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-05 05:01:03.903722] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-06 05:01:05.900827] Doações com Oportunidade Agendadas:
+['37O4FF', 'QBBI40', '0064P00000tmUhmQAE', '2021-10-05T16:28:50']
+['0E1KG9', 'VOUKI3', '0064P00000uIHpbQAG', '2021-10-05T15:42:02']
+['7A58HA', 'XMYXHR', '0064X00001z7dPJQAY', '2021-10-05T08:51:12']
+['8HY74O', 'O12TU2', '0064X00001z7jOGQAY', '2021-10-05T16:34:59']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-07 05:01:06.332373] Doações com Oportunidade Agendadas:
+['483MXU', 'MB3JX6', '0064X00001z79hvQAA', '2021-10-06T16:39:37']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-08 05:01:03.724305] Doações com Oportunidade Agendadas:
+['04PRC7', '1NZP3M', '0064P00000uIHoOQAW', '2021-10-07T18:17:11.6331632']
+['5SJ9Y0', 'BKWU1V', '0064X00001z6oaaQAA', '2021-10-07T13:45:22']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-09 05:01:04.184746] Doações com Oportunidade Agendadas:
+['3Y5EM3', '9A0YCP', '0064P00000uIHmVQAW', '2021-10-08T17:26:07']
+['839WGP', 'AWCFBS', '0064X00001z6oa1QAA', '2021-10-08T14:22:13']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-10 05:01:04.937158] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-10 05:01:04.937184] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-11 05:01:08.675270] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-11 05:01:08.675297] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-12 05:01:08.570447] Doações com Oportunidade Agendadas:
+['6K6CG2', '27MZRB', '0064X00001z7hhRQAQ', '2021-10-11T16:28:35']
+['3R52KW', '9Z9YI7', '0064X00001z7lhXQAQ', '2021-10-11T11:41:34']
+['9WE0M6', '52ZHO1', '0064X00001z85x2QAA', '2021-10-11T17:33:57']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-13 05:01:06.574154] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-13 05:01:06.574181] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-14 05:01:06.185655] Doações com Oportunidade Agendadas:
+['76M3SY', '31LTSO', '0064X00001z868PQAQ', '2021-10-13T15:18:27']
+['80L1MS', 'DR8U5W', '0064X00001z868ZQAQ', '2021-10-13T10:38:05']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-15 05:01:06.925038] Doações com Oportunidade Agendadas:
+['89YIR1', 'WR1QI4', '0064X00001z72onQAA', '2021-10-14T16:49:47.2293535']
+['89YIR1', 'R6YGM5', '0064X00001z72onQAA', '2021-10-14T16:49:47.2293535']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-16 05:01:04.553225] Doações com Oportunidade Agendadas:
+['6FZK81', 'R7FI0W', '0064X00001z7hCIQAY', '2021-10-15T16:17:44']
+['7YDR88', 'PHHYT9', '0064X00001z7lgLQAQ', '2021-10-15T17:16:24']
+['39YYH8', 'EVEAKV', '0064X000020xhQkQAI', '2021-10-15T16:12:06']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-17 05:01:03.616812] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-17 05:01:03.616838] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-18 05:01:06.785886] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-18 05:01:06.785945] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-19 05:01:08.469205] Doações com Oportunidade Agendadas:
+['84L6QW', 'WDLQFS', '0064X00001z79fxQAA', '2021-10-18T12:04:08']
+['6LF78B', '8QAY5C', '0064X00001z79fzQAA', '2021-10-18T13:18:20']
+['8FG64Y', 'NE8EKK', '0064X000020xiyPQAQ', '2021-10-18T16:14:17']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-20 05:01:05.497436] Doações com Oportunidade Agendadas:
+['158FYS', '54PG2C', '0064X00001z8A7nQAE', '2021-10-19T17:12:29']
+['84RWN9', 'JZNLQ7', '0064X000020xrOGQAY', '2021-10-19T17:19:26']
+['39XR5K', 'JGY5PK', '0064X000020xrZKQAY', '2021-10-19T11:41:54']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-21 05:01:06.711998] Doações com Oportunidade Agendadas:
+['18ZHE0', '49NVPN', '0064P00000tgJGnQAM', '2021-10-20T14:15:01']
+['89N7QI', 'JQW6UY', '0064X00001z6oamQAA', '2021-10-20T14:22:05']
+['7WL4Q4', 'ULCVPY', '0064X00001z79g7QAA', '2021-10-20T09:09:00']
+['14S1GS', 'YAUQ9I', '0064X00001z8AB4QAM', '2021-10-20T17:41:27']
+['825VMG', '1BDOZ8', '0064X000020xrgeQAA', '2021-10-20T10:20:34']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-22 05:01:05.993209] Doações com Oportunidade Agendadas:
+['61QVY3', '2BJT0U', '0064X00001z6oY9QAI', '2021-10-21T12:05:02']
+['61B9XO', 'EZYS44', '0064X00001z8A7NQAU', '2021-10-21T11:44:57']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-23 05:01:04.273902] Doações com Oportunidade Agendadas:
+['46J6GY', 'LFZCJZ', '0064P00000tnrZ2QAI', '2021-10-22T09:03:19.7491001']
+['31FQS3', 'SF6YP2', '0064X00001z7hhGQAQ', '2021-10-22T16:20:22']
+['49GS8Q', 'FA52DT', '0064X00001z7hhIQAQ', '2021-10-22T17:21:22']
+['0E5TP0', 'PSFXJD', '0064X00001z7hiiQAA', '2021-10-22T16:48:46']
+['55OY7F', 'HN64AR', '0064X00001z8A5vQAE', '2021-10-22T15:19:11']
+['486ICC', 'I72RIE', '0064X000020xsyCQAQ', '2021-10-22T11:24:37']
+['18K5FU', 'YS4RXA', '0064X000020y6sqQAA', '2021-10-22T10:59:11']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-24 05:01:06.233310] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-24 05:01:06.233335] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-25 05:01:05.648512] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-25 05:01:05.648563] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-10-26 05:01:03.949419] Doações com Oportunidade Agendadas:
+['6NIK18', '8XNX4A', '0064X00001z7c6uQAA', '2021-10-25T17:21:20']
+['8Y34OG', '3K9ATK', '0064X00001z7lfJQAQ', '2021-10-25T17:32:27']
+['8FG64Y', 'NE8EKK', '0064X000020xiyPQAQ', '2021-10-25T17:10:18.4171843']
+['81OKZ9', '7K8JNB', '0064X000020xt17QAA', '2021-10-25T15:59:18']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-27 05:01:06.822277] Doações com Oportunidade Agendadas:
+['89PFG4', 'K64FJF', '0064P00000uIHmEQAW', '2021-10-26T11:30:27']
+['4S07VI', 'JQLIBE', '0064X00001z6pFZQAY', '2021-10-26T14:38:12']
+['2Z80SQ', 'QOQYCF', '0064X000020yHdPQAU', '2021-10-26T09:49:53']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-28 05:01:06.630795] Doações com Oportunidade Agendadas:
+['2H2I4T', 'LQ57VQ', '0064X00001z7hCKQAY', '2021-10-27T17:33:41']
+['9DY4Q9', '9A5BTY', '0064X000020xt4KQAQ', '2021-10-27T15:26:20']
+['7K3BI9', 'HW4XW5', '0064X000020yBwGQAU', '2021-10-27T11:48:39']
+['5N8CM3', '7AF6ZA', '0064X000020yIgrQAE', '2021-10-27T14:55:48']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-29 05:01:03.964609] Doações com Oportunidade Agendadas:
+['8U2A5K', '1P297T', '0064X00001z6oYvQAI', '2021-10-28T15:11:49']
+['94AAV7', 'JE8JIO', '0064X00001z7lhuQAA', '2021-10-28T15:25:04']
+['3X0PT3', 'AO12U8', '0064X000020xt3eQAA', '2021-10-28T15:30:27']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-30 05:01:04.512011] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-30 05:01:04.512038] Doações com Oportunidade Baixadas:
+['17PA2U', 'MFH3WA', '0064P00000strX2QAI', '2021-10-29T14:16:19.6560961']
+['4C4F6C', 'O1LSY0', '0064P00000tn5OLQAY', '2021-10-29T14:06:16.6837256']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-10-31 05:01:03.806733] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-10-31 05:01:03.806759] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-01 05:01:06.493022] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-01 05:01:06.493047] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-02 05:01:06.131115] Doações com Oportunidade Agendadas:
+['3U7X4Q', 'EY6G9J', '0064X00001z8A9NQAU', '2021-11-01T15:39:25']
+['88Y8FE', 'Z4S2JT', '0064X000020xsxcQAA', '2021-11-01T11:55:35']
+['10WOU6', 'SD58X4', '0064X000020xsxZQAQ', '2021-11-01T14:03:35']
+['82VT5U', '8HU8CH', '0064X000020yI7KQAU', '2021-11-01T15:53:50']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-03 05:01:07.229307] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-03 05:01:07.229335] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-04 05:01:03.791309] Doações com Oportunidade Agendadas:
+['97VR8K', 'JDS9NM', '0064X000020ydpuQAA', '2021-11-03T13:58:22']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-05 05:01:06.223106] Doações com Oportunidade Agendadas:
+['01A1QB', 'S92OGV', '0064X000020yIhwQAE', '2021-11-04T11:38:07']
+['3RL4X9', 'MJRUDX', '0064X000020yIhwQAE', '2021-11-04T14:39:44']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-06 05:01:04.544008] Doações com Oportunidade Agendadas:
+['59L4AE', '7AX1YM', '0064P00000uIHmvQAG', '2021-11-05T10:52:11']
+['6RM1A2', 'BKLHC4', '0064X00001z6liMQAQ', '2021-11-05T14:46:15']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-07 05:01:03.872821] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-07 05:01:03.872859] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-08 05:01:05.924117] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-08 05:01:05.924152] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-09 05:01:08.850261] Doações com Oportunidade Agendadas:
+['1ZLN52', '18XVB3', '0064X000020yIgVQAU', '2021-11-08T14:29:08']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-10 05:01:03.929349] Doações com Oportunidade Agendadas:
+['1TIH80', 'X2DH3H', '0064X00001z7hhGQAQ', '2021-11-09T10:25:03']
+['2L1WJ1', 'RQZJ6F', '0064X000020xsTHQAY', '2021-11-09T14:19:57']
+['6D9TU0', 'CQK7X1', '0064X000020z0IEQAY', '2021-11-09T10:03:57']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-11 05:01:06.322420] Doações com Oportunidade Agendadas:
+['76NL3F', 'QVY9RX', '0064X000020zC6oQAE', '2021-11-10T17:36:32']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-12 05:01:04.622049] Doações com Oportunidade Agendadas:
+['6TB67L', 'GINWX1', '0064X000020xt1kQAA', '2021-11-11T14:12:39']
+['068EMH', 'XE083Q', '0064X000020xt1kQAA', '2021-11-11T16:19:48']
+['0Z32PU', '6F5NEN', '0064X000020zCrfQAE', '2021-11-11T14:17:30']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-13 05:01:03.751781] Doações com Oportunidade Agendadas:
+['0B4H6F', 'B7KVV0', '0064X000020xt29QAA', '2021-11-12T15:18:19']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-14 05:01:06.237972] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-14 05:01:06.238012] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-15 05:01:06.263726] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-15 05:01:06.263753] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-16 05:01:04.465377] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-16 05:01:04.465404] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-17 05:01:06.685268] Doações com Oportunidade Agendadas:
+['844GLI', 'MJNEFO', '0064X00001z8A3eQAE', '2021-11-16T17:38:08']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-18 05:01:03.730042] Doações com Oportunidade Agendadas:
+['9Y6B0F', 'BJZJWM', '0064X00001z7hhUQAQ', '2021-11-17T17:04:36']
+['9LP35Q', 'F70TBJ', '0064X000020yIgFQAU', '2021-11-17T15:39:40']
+['0Q7FB7', 'QQ5YTP', '0064X000020z72nQAA', '2021-11-17T14:13:58']
+['9XJX13', 'JNA37W', '0064X000020z72uQAA', '2021-11-17T14:54:46']
+['150QWT', 'SW8TJ5', '0064X000020zU6uQAE', '2021-11-17T09:09:04']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-19 05:01:04.338641] Doações com Oportunidade Agendadas:
+['0J1ZW0', 'S03IO3', '0064X000020yIh6QAE', '2021-11-18T09:58:18']
+['4UXA15', '70VC2T', '0064X000020z73XQAQ', '2021-11-18T15:03:25']
+['86XZP7', '2CAY1Y', '0064X00001z8A8eQAE', '2021-11-18T16:40:20']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-20 05:01:06.171251] Doações com Oportunidade Agendadas:
+['3OHF18', 'VPCSMG', '0064X000020zt9jQAA', '2021-11-19T09:20:49']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-21 05:01:04.466639] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-21 05:01:04.466665] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-22 05:01:06.582886] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-22 05:01:06.582920] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-23 05:01:03.707917] Doações com Oportunidade Agendadas:
+['240VMK', '0F54H7', '0064X000020yIjTQAU', '2021-11-22T10:59:57']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-24 05:01:03.714003] Doações com Oportunidade Agendadas:
+['25P3TE', 'S7YXZR', '0064X000020zxqZQAQ', '2021-11-23T13:45:51']
+['4LN3T5', 'C0YH6G', '0064X00001z7hgcQAA', '2021-11-23T14:23:41.4141162']
+['16TCJ2', 'WI8FFQ', '0064X000020zgrzQAA', '2021-11-23T16:20:18']
+['0WRM53', 'IQ198R', '0064X000020yeDXQAY', '2021-11-23T16:47:58']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-25 05:01:06.150791] Doações com Oportunidade Agendadas:
+['3N35MA', 'NJNJYZ', '0064X000020z72yQAA', '2021-11-24T12:00:19']
+['9CS17Y', '58S7Z2', '0064X000020yIk5QAE', '2021-11-24T17:01:29']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-26 05:01:03.719847] Doações com Oportunidade Agendadas:
+['0D3MS9', 'BKYLJR', '0064X000020z71tQAA', '2021-11-25T15:47:21']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-27 05:01:04.260303] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-27 05:01:04.260329] Doações com Oportunidade Baixadas:
+['01A1QB', 'S92OGV', '0064X000020yIhwQAE', '2021-11-26T15:54:11.9785188']
+['0J1ZW0', 'S03IO3', '0064X000020yIh6QAE', '2021-11-26T15:54:41.5726998']
+['150QWT', 'SW8TJ5', '0064X000020zU6uQAE', '2021-11-26T15:54:33.0413405']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-11-28 05:01:03.931789] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-28 05:01:03.931815] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-29 05:01:04.706567] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-11-29 05:01:04.706594] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-11-30 05:01:04.349690] Doações com Oportunidade Agendadas:
+['95LWJ9', '2HQRI1', '0064X0000210BuvQAE', '2021-11-29T10:14:48']
+['087YVO', 'ACN10M', '0064X0000210TUZQA2', '2021-11-29T15:56:23']
+['4E9KL6', '9MJ6X4', '0064X0000210T7kQAE', '2021-11-29T16:46:19']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-01 05:01:21.215404] Doações com Oportunidade Agendadas:
+['08CYO7', 'KH5U5H', '0064X00001z8A9pQAE', '2021-11-30T11:07:17']
+['29FU1T', '8H2KD4', '0064X000020yIjSQAU', '2021-11-30T11:48:32']
+['41I6QQ', 'MHCFO5', '0064X0000210VZQQA2', '2021-11-30T14:34:10']
+['75FM6J', 'GDE9WP', '0064X0000210Xy9QAE', '2021-11-30T16:35:30.5646719']
+['8TN61S', 'RJBA1I', '0064X000020z728QAA', '2021-11-30T17:45:42']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-02 05:01:06.253348] Doações com Oportunidade Agendadas:
+['0VJN70', '6A1T6B', '0064X00001z8A5LQAU', '2021-12-01T09:51:05']
+['9IME95', 'S054HH', '0064X0000210a0BQAQ', '2021-12-01T11:46:35']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-03 05:01:03.811833] Doações com Oportunidade Agendadas:
+['3Y8AD8', 'PQFC3I', '0064X000020z0J2QAI', '2021-12-02T17:30:59']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-04 05:01:03.938834] Doações com Oportunidade Agendadas:
+['7C8HP0', 'JQJFMI', '0064X0000210U35QAE', '2021-12-03T08:44:18']
+['4Y2UE4', '1RDDY3', '0064X00001z7hhaQAA', '2021-12-03T09:02:43']
+['2CF6P8', 'KEYV6T', '0064P00000srqE6QAI', '2021-12-03T10:06:37']
+['984KJM', 'IDAO2Y', '0064X000020zgp2QAA', '2021-12-03T10:11:51']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-05 05:01:07.510492] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-05 05:01:07.510529] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-06 05:01:05.639133] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-06 05:01:05.639161] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-07 05:01:09.141179] Doações com Oportunidade Agendadas:
+['1N29RV', '4IUEFO', '0064X00001z7L8XQAU', '2021-12-06T09:16:19']
+['6T3H0H', 'RNEBTE', '0064X000020ye9xQAA', '2021-12-06T11:08:44']
+['8KS5R8', 'QY5RH2', '0064X0000210txKQAQ', '2021-12-06T14:50:00']
+['4AS27N', 'HDMRZH', '0064X00001z7lj1QAA', '2021-12-06T14:54:55']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-08 05:01:06.803688] Doações com Oportunidade Agendadas:
+['5ON0P2', 'NKJ5B6', '0064X0000210eNPQAY', '2021-12-07T10:42:41']
+['3T49PT', '5YJT61', '0064X000020zgqFQAQ', '2021-12-07T13:24:15']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-09 05:01:04.383093] Doações com Oportunidade Agendadas:
+['99RK7H', 'V7DKNR', '0064X0000210KcuQAE', '2021-12-08T08:55:46']
+['27ZK6U', 'F6KU96', '0064X000020yeCzQAI', '2021-12-08T10:02:46']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-10 05:01:08.176295] Doações com Oportunidade Agendadas:
+['2SD93X', 'XMWSVJ', '0064X0000210eK5QAI', '2021-12-09T11:56:30']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-11 05:01:04.166399] Doações com Oportunidade Agendadas:
+['5U6J8S', 'FQUAWQ', '0064X000020xt1yQAA', '2021-12-10T10:10:13']
+['411EIW', 'R8FQMI', '0064X0000210eOjQAI', '2021-12-10T10:31:07']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-12 05:01:04.170568] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-12 05:01:04.170605] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-13 05:01:09.056751] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-13 05:01:09.056779] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-14 05:01:04.191541] Doações com Oportunidade Agendadas:
+['3DRZ51', 'DZFRXV', '0064X000020zgk2QAA', '2021-12-13T10:36:20']
+['57ESW6', '31LTSO', ' 0064X0000211J3hQAE', '2021-12-13T11:47:09.9625047']
+['23U8EF', 'YS4RXA', '0064X0000211MGHQA2', '2021-12-13T11:57:10']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-15 05:01:04.802997] Doações com Oportunidade Agendadas:
+['642FML', 'PT0H19', '0064X0000211RC0QAM', '2021-12-14T10:19:45']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-16 05:01:06.441688] Doações com Oportunidade Agendadas:
+['3YC9Z8', 'RS1F2O', '0064X0000211X6DQAU', '2021-12-15T10:09:30']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-17 05:01:06.128472] Doações com Oportunidade Agendadas:
+['5ITR64', 'L6W911', '0064X000020z745QAA', '2021-12-16T09:25:53']
+['0WU9N4', 'L8U1U0', '0064X0000210AQ1QAM', '2021-12-16T15:41:06']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-18 05:01:13.794149] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-18 05:01:13.794178] Doações com Oportunidade Baixadas:
+['1TIH80', 'X2DH3H', '0064X00001z7hhGQAQ', '2021-12-17T11:01:34.9080685']
+['55OY7F', 'HN64AR', '0064X00001z8A5vQAE', '2021-12-17T10:45:53.4803807']
+['89N7QI', 'JQW6UY', '0064X00001z6oamQAA', '2021-12-17T09:54:53.9456789']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-19 05:01:06.506555] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-19 05:01:06.506583] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-20 05:01:04.389339] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-20 05:01:04.389408] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-21 05:01:04.004993] Doações com Oportunidade Agendadas:
+['32DM7B', '5LP6A4', '0064X0000210AScQAM', '2021-12-20T10:23:11']
+['55U3JT', 'YSBFKK', '0064X000020zgoBQAQ', '2021-12-20T10:36:24']
+['6CQ2N3', '76VUGO', '0064X000022r7HyQAI', '2021-12-20T16:50:04']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-22 05:01:08.651723] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-22 05:01:08.651755] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-23 05:01:05.929023] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-23 05:01:05.929051] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-24 05:01:06.851079] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-24 05:01:06.851109] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-25 05:01:03.811720] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-25 05:01:03.811750] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-26 05:01:04.276864] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-26 05:01:04.276893] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-27 05:01:06.217755] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-27 05:01:06.217783] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-28 05:01:05.663163] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-28 05:01:05.663194] Doações com Oportunidade Baixadas:
+['3YC9Z8', 'RS1F2O', '0064X0000211X6DQAU', '2021-12-27T07:41:40.3777716']
+['55U3JT', 'YSBFKK', '0064X000020zgoBQAQ', '2021-12-27T09:31:40.4337803']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-29 05:01:03.559582] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-29 05:01:03.559612] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2021-12-30 05:01:04.274130] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-30 05:01:04.274160] Doações com Oportunidade Baixadas:
+['32DM7B', '5LP6A4', '0064X0000210AScQAM', '2021-12-29T08:06:03.4774273']
+['99RK7H', 'V7DKNR', '0064X0000210KcuQAE', '2021-12-29T08:36:04.8477399']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2021-12-31 05:01:03.952267] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2021-12-31 05:01:03.952295] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-01 05:01:04.676374] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-01 05:01:04.676403] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-02 05:01:05.481206] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-02 05:01:05.481233] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-03 05:01:07.118253] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-03 05:01:07.118283] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-04 05:01:04.521991] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-04 05:01:04.522020] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-05 05:01:08.006245] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-05 05:01:08.006276] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-06 05:01:04.415895] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-06 05:01:04.415923] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-07 05:01:06.663858] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-07 05:01:06.663887] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-08 05:01:05.498534] Doações com Oportunidade Agendadas:
+['2VH6C7', '8UT787', '0064X000020xt2TQAQ', '2022-01-07T15:21:34']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2022-01-09 05:01:03.649018] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-09 05:01:03.649050] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-10 05:01:06.679682] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-10 05:01:06.679712] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-11 05:01:04.342845] Doações com Oportunidade Agendadas:
+['1W9XV5', '0SGYSU', '0064X000020xt0HQAQ', '2022-01-10T09:00:11']
+['9CW8G9', 'XXY14G', '0064X000020zgkSQAQ', '2022-01-10T12:03:29']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2022-01-12 05:01:04.318218] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-12 05:01:04.318249] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-13 05:01:04.254298] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-13 05:01:04.254547] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-14 05:01:05.924750] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-14 05:01:05.924790] Doações com Oportunidade Baixadas:
+['23U8EF', 'YS4RXA', '0064X0000211MGHQA2', '2022-01-13T08:25:49.6003056']
+
+Resultado da inserção na tabela de baixas:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 152, in <module>
+    main("baixas_de_coletas!A:D", oportunidades_coletadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2022-01-15 05:01:03.581896] Doações com Oportunidade Agendadas:
+['1KK25Q', 'UN6JR3', '0064X000022sQFhQAM', '2022-01-14T11:24:25']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2022-01-16 05:01:04.291743] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-16 05:01:04.291771] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-17 05:01:08.942212] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-17 05:01:08.942242] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-18 05:01:05.893053] Doações com Oportunidade Agendadas:
+Sem novos agendamentos
+
+[2022-01-18 05:01:05.893082] Doações com Oportunidade Baixadas:
+Sem novas baixas
+-------------------------------------------------------------------------------------------------
+
+[2022-01-19 05:01:08.944159] Doações com Oportunidade Agendadas:
+['01RIQ2', 'P7189S', '0064X000020ye9jQAA', '2022-01-18T10:57:18']
+['6N1RV3', 'E87OQ2', '0064X000022snC8QAI', '2022-01-18T13:43:37']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+[2022-01-20 05:01:06.681047] Doações com Oportunidade Agendadas:
+['4C5FS4', 'XLQCXK', '0064X000022srgKQAQ', '2022-01-19T12:02:18']
+
+Resultado da inserção na tabela de agendamentos:
+Traceback (most recent call last):
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 134, in <module>
+    main("agendamentos_de_coletas!A:D", oportunidades_agendadas_rows)
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 86, in main
+    sheet = instantiate_spreadsheet()
+  File "/home/zeta/scripts/integracaoSalesforceGF/IntegracaoLeads_agendamento_e_baixa.py", line 64, in instantiate_spreadsheet
+    'credentials.json', SCOPES)
+  File "/home/zeta/scripts/integracaoSalesforceGF/venv/lib/python3.7/site-packages/google_auth_oauthlib/flow.py", line 203, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
