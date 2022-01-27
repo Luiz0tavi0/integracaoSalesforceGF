@@ -1,5 +1,7 @@
 from __future__ import print_function
 import os.path
+from pathlib import Path
+
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -9,7 +11,7 @@ import datetime
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 SERVICE_ACCOUNT_FILE = 'credentials.json'
-
+path_service_account_file = Path("credentials.json").resolve()
 
 def get_caspio_token_access() -> str:
     url = "https://c2aca196.caspio.com/oauth/token"
@@ -61,7 +63,7 @@ def instantiate_spreadsheet():
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', SCOPES)
+                str(path_service_account_file), SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
         with open('token.json', 'w') as token:
@@ -109,7 +111,8 @@ def main(RANGE_NAME: str, values: list):
 
 yesterday = datetime.datetime.now() - datetime.timedelta(days=1)
 
-# Cria os parametros que vão ser utilizados  para fazer a pesquisa na view do caspio, usando a data do dia anterior e o status da doacão
+# Cria os parametros que vão ser utilizados  para fazer a pesquisa na view do caspio, usando a data do dia anterior e
+# o status da doacão
 params_agendamento = {
     'q.where': f"bazar_tb_doacao_Entry_DateUpdated LIKE '%{yesterday:%Y-%m-%d}%' AND bazar_tb_doacao_status_doacao = 'Cadastrada'"}
 params_baixa = {
